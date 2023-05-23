@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="images">
+    <file>iconos/search.svg</file>
+    <file>iconos/upload.svg</file>
+    <file>iconos/save.svg</file>
+    <file>iconos/layout.svg</file>
+    <file>iconos/sdv.svg</file>
+    <file>iconos/rss.svg</file>
+    <file>logo.png</file>
+    <file>iconos/home.svg</file>
+  </qresource>
+</RCC>
