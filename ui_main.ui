@@ -284,22 +284,7 @@ QPushButton:hover {
 }</string>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_2">
-             <property name="spacing">
-              <number>0</number>
-             </property>
-             <property name="leftMargin">
-              <number>0</number>
-             </property>
-             <property name="topMargin">
-              <number>10</number>
-             </property>
-             <property name="rightMargin">
-              <number>0</number>
-             </property>
-             <property name="bottomMargin">
-              <number>0</number>
-             </property>
-             <item>
+             <item alignment="Qt::AlignLeft">
               <widget class="QPushButton" name="btn_home">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
@@ -339,7 +324,7 @@ QPushButton:hover {
                </property>
               </widget>
              </item>
-             <item>
+             <item alignment="Qt::AlignLeft">
               <widget class="QPushButton" name="btn_SdV">
                <property name="enabled">
                 <bool>false</bool>
@@ -368,7 +353,7 @@ QPushButton:hover {
                </property>
               </widget>
              </item>
-             <item>
+             <item alignment="Qt::AlignLeft">
               <widget class="QPushButton" name="btn_DdR">
                <property name="enabled">
                 <bool>false</bool>
@@ -397,7 +382,50 @@ QPushButton:hover {
                </property>
               </widget>
              </item>
-             <item>
+             <item alignment="Qt::AlignLeft">
+              <widget class="QPushButton" name="btn_trafReal">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>112</width>
+                 <height>32</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Segoe UI Semibold</family>
+                 <pointsize>11</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>  Traf. Real</string>
+               </property>
+               <property name="icon">
+                <iconset resource="images.qrc">
+                 <normaloff>:/images/iconos/home.svg</normaloff>:/images/iconos/home.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>16</width>
+                 <height>16</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignLeft">
               <widget class="QPushButton" name="btn_certif">
                <property name="enabled">
                 <bool>false</bool>
@@ -426,7 +454,7 @@ QPushButton:hover {
                </property>
               </widget>
              </item>
-             <item>
+             <item alignment="Qt::AlignLeft">
               <widget class="QPushButton" name="btn_config">
                <property name="minimumSize">
                 <size>
@@ -791,8 +819,8 @@ QPushButton:hover {
                      <rect>
                       <x>10</x>
                       <y>20</y>
-                      <width>131</width>
-                      <height>231</height>
+                      <width>141</width>
+                      <height>181</height>
                      </rect>
                     </property>
                     <property name="sizePolicy">
@@ -830,8 +858,8 @@ QPushButton:hover {
                       <rect>
                        <x>10</x>
                        <y>17</y>
-                       <width>111</width>
-                       <height>211</height>
+                       <width>121</width>
+                       <height>161</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -850,10 +878,10 @@ QPushButton:hover {
                    <widget class="QGroupBox" name="grp_precInstal">
                     <property name="geometry">
                      <rect>
-                      <x>150</x>
+                      <x>160</x>
                       <y>20</y>
-                      <width>131</width>
-                      <height>231</height>
+                      <width>121</width>
+                      <height>181</height>
                      </rect>
                     </property>
                     <property name="sizePolicy">
@@ -891,8 +919,8 @@ QPushButton:hover {
                       <rect>
                        <x>10</x>
                        <y>17</y>
-                       <width>111</width>
-                       <height>211</height>
+                       <width>101</width>
+                       <height>161</height>
                       </rect>
                      </property>
                      <property name="font">
@@ -1029,7 +1057,7 @@ QPushButton:hover {
                    <property name="geometry">
                     <rect>
                      <x>390</x>
-                     <y>290</y>
+                     <y>240</y>
                      <width>181</width>
                      <height>20</height>
                     </rect>
@@ -1048,7 +1076,7 @@ QPushButton:hover {
                    <property name="geometry">
                     <rect>
                      <x>390</x>
-                     <y>266</y>
+                     <y>216</y>
                      <width>181</width>
                      <height>21</height>
                     </rect>
@@ -1067,7 +1095,7 @@ QPushButton:hover {
                    <property name="geometry">
                     <rect>
                      <x>580</x>
-                     <y>280</y>
+                     <y>230</y>
                      <width>31</width>
                      <height>31</height>
                     </rect>
@@ -1115,7 +1143,7 @@ QPushButton:hover {
                    <property name="geometry">
                     <rect>
                      <x>620</x>
-                     <y>280</y>
+                     <y>230</y>
                      <width>31</width>
                      <height>31</height>
                     </rect>
@@ -1159,6 +1187,120 @@ QPushButton:hover {
                     <string>-</string>
                    </property>
                   </widget>
+                  <widget class="QLabel" name="label_31">
+                   <property name="geometry">
+                    <rect>
+                     <x>300</x>
+                     <y>314</y>
+                     <width>131</width>
+                     <height>21</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Num. Id. Provincia:</string>
+                   </property>
+                  </widget>
+                  <widget class="QComboBox" name="cmb_idProvincia">
+                   <property name="geometry">
+                    <rect>
+                     <x>300</x>
+                     <y>338</y>
+                     <width>191</width>
+                     <height>22</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="lbl_idProvincia">
+                   <property name="geometry">
+                    <rect>
+                     <x>498</x>
+                     <y>336</y>
+                     <width>111</width>
+                     <height>21</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_38">
+                   <property name="geometry">
+                    <rect>
+                     <x>390</x>
+                     <y>266</y>
+                     <width>71</width>
+                     <height>21</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Provincia:</string>
+                   </property>
+                  </widget>
+                  <widget class="QLineEdit" name="txt_provincia">
+                   <property name="geometry">
+                    <rect>
+                     <x>390</x>
+                     <y>290</y>
+                     <width>271</width>
+                     <height>20</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                  <widget class="QLineEdit" name="txt_numIdProvincia">
+                   <property name="geometry">
+                    <rect>
+                     <x>610</x>
+                     <y>338</y>
+                     <width>51</width>
+                     <height>20</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 235);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
                   <zorder>label_15</zorder>
                   <zorder>label_16</zorder>
                   <zorder>txt_marca</zorder>
@@ -1178,6 +1320,12 @@ QPushButton:hover {
                   <zorder>lbl_modelo_2</zorder>
                   <zorder>btn_addPrecinto</zorder>
                   <zorder>btn_delPrecinto</zorder>
+                  <zorder>label_31</zorder>
+                  <zorder>cmb_idProvincia</zorder>
+                  <zorder>lbl_idProvincia</zorder>
+                  <zorder>label_38</zorder>
+                  <zorder>txt_provincia</zorder>
+                  <zorder>txt_numIdProvincia</zorder>
                  </widget>
                 </widget>
                 <widget class="QWidget" name="widget_4" native="true">
@@ -1778,23 +1926,1617 @@ QHeaderView::section {
              </layout>
             </widget>
             <widget class="QWidget" name="p_SdV">
-             <widget class="QLabel" name="label_2">
+             <widget class="QWidget" name="SdV_R" native="true">
               <property name="geometry">
                <rect>
-                <x>180</x>
-                <y>180</y>
-                <width>231</width>
-                <height>91</height>
+                <x>788</x>
+                <y>0</y>
+                <width>293</width>
+                <height>631</height>
                </rect>
               </property>
-              <property name="font">
-               <font>
-                <pointsize>14</pointsize>
-               </font>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
               </property>
-              <property name="text">
-               <string>Simulación de velocidades</string>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
               </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <widget class="QWidget" name="configSdVContainer" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>10</y>
+                 <width>271</width>
+                 <height>611</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#configSdVContainer{
+	border: 1px solid grey;
+	border-radius: 4px;
+}</string>
+               </property>
+               <widget class="QLabel" name="label_27">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>191</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Segoe UI</family>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Configuración</string>
+                </property>
+               </widget>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="SdV_L" native="true">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>788</width>
+                <height>631</height>
+               </rect>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>788</width>
+                <height>0</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_7">
+               <item>
+                <widget class="QWidget" name="wid_titulo" native="true">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_10">
+                  <item>
+                   <widget class="QLabel" name="label_2">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>14</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Simulación de velocidades</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QComboBox" name="cmb_puertos">
+                    <property name="minimumSize">
+                     <size>
+                      <width>80</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>80</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QWidget" name="wid_central" native="true">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <widget class="QGroupBox" name="grp_equipo_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>340</y>
+                    <width>751</width>
+                    <height>91</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>171</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>671</width>
+                    <height>1</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>9999</width>
+                    <height>9999</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="title">
+                   <string>Enviar velocidad (sólo conectado a generador)</string>
+                  </property>
+                  <widget class="QLabel" name="label_19">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>20</y>
+                     <width>121</width>
+                     <height>21</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Velocidad (km/h):</string>
+                   </property>
+                  </widget>
+                  <widget class="QLineEdit" name="txt_velocidad_sdv">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>42</y>
+                     <width>71</width>
+                     <height>31</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>16</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 235);
+</string>
+                   </property>
+                   <property name="text">
+                    <string>171,42</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                  <widget class="QPushButton" name="btn_enviar_velocidad">
+                   <property name="geometry">
+                    <rect>
+                     <x>660</x>
+                     <y>40</y>
+                     <width>81</width>
+                     <height>31</height>
+                    </rect>
+                   </property>
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>999</width>
+                     <height>999</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Calibri</family>
+                     <pointsize>11</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: rgb(173, 173, 173);
+	background-color: rgb(225, 225, 225);
+}
+QPushButton:hover {
+	background-color: rgb(218, 255, 215);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Enviar</string>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_26">
+                   <property name="geometry">
+                    <rect>
+                     <x>150</x>
+                     <y>20</y>
+                     <width>111</width>
+                     <height>21</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Frecuencia (Hz):</string>
+                   </property>
+                  </widget>
+                  <widget class="QLineEdit" name="txt_frec_sdv">
+                   <property name="geometry">
+                    <rect>
+                     <x>150</x>
+                     <y>42</y>
+                     <width>91</width>
+                     <height>31</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>16</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 235);
+</string>
+                   </property>
+                   <property name="text">
+                    <string>6587,45</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                  <widget class="QLineEdit" name="txt_datosRecibidos">
+                   <property name="geometry">
+                    <rect>
+                     <x>300</x>
+                     <y>42</y>
+                     <width>211</width>
+                     <height>31</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>9</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true"/>
+                   </property>
+                   <property name="text">
+                    <string>172,46</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                   <property name="readOnly">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_28">
+                   <property name="geometry">
+                    <rect>
+                     <x>300</x>
+                     <y>20</y>
+                     <width>121</width>
+                     <height>21</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Texto recibido:</string>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_5">
+                   <property name="geometry">
+                    <rect>
+                     <x>98</x>
+                     <y>48</y>
+                     <width>41</width>
+                     <height>21</height>
+                    </rect>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap resource="images.qrc">:/images/double_arrow.png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_6">
+                   <property name="geometry">
+                    <rect>
+                     <x>250</x>
+                     <y>48</y>
+                     <width>41</width>
+                     <height>21</height>
+                    </rect>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap resource="images.qrc">:/images/arrow.png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_7">
+                   <property name="geometry">
+                    <rect>
+                     <x>516</x>
+                     <y>50</y>
+                     <width>41</width>
+                     <height>21</height>
+                    </rect>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap resource="images.qrc">:/images/arrow.png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_30">
+                   <property name="geometry">
+                    <rect>
+                     <x>530</x>
+                     <y>20</y>
+                     <width>121</width>
+                     <height>21</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Velocidad (km/h):</string>
+                   </property>
+                  </widget>
+                  <widget class="QLineEdit" name="txt_velocidadRecib">
+                   <property name="geometry">
+                    <rect>
+                     <x>560</x>
+                     <y>42</y>
+                     <width>91</width>
+                     <height>31</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>16</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true"/>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                   <property name="readOnly">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                  <zorder>label_19</zorder>
+                  <zorder>txt_velocidad_sdv</zorder>
+                  <zorder>btn_enviar_velocidad</zorder>
+                  <zorder>label_26</zorder>
+                  <zorder>txt_frec_sdv</zorder>
+                  <zorder>label_28</zorder>
+                  <zorder>txt_datosRecibidos</zorder>
+                  <zorder>label_5</zorder>
+                  <zorder>label_6</zorder>
+                  <zorder>label_7</zorder>
+                  <zorder>label_30</zorder>
+                  <zorder>txt_velocidadRecib</zorder>
+                 </widget>
+                 <widget class="QGroupBox" name="grp_equipo_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>10</y>
+                    <width>751</width>
+                    <height>321</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>171</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>671</width>
+                    <height>1</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>9999</width>
+                    <height>9999</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="title">
+                   <string>Configuración</string>
+                  </property>
+                  <widget class="QListWidget" name="lst_modelos_sdv">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>40</y>
+                     <width>171</width>
+                     <height>228</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true"/>
+                   </property>
+                   <property name="selectionMode">
+                    <enum>QAbstractItemView::SingleSelection</enum>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_29">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>18</y>
+                     <width>71</width>
+                     <height>21</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Modelos:</string>
+                   </property>
+                  </widget>
+                  <widget class="QGroupBox" name="grp_configCinem">
+                   <property name="geometry">
+                    <rect>
+                     <x>190</x>
+                     <y>10</y>
+                     <width>551</width>
+                     <height>171</height>
+                    </rect>
+                   </property>
+                   <property name="title">
+                    <string>Cinemómetro</string>
+                   </property>
+                   <widget class="QLabel" name="lbl_sdv_auto">
+                    <property name="geometry">
+                     <rect>
+                      <x>420</x>
+                      <y>138</y>
+                      <width>121</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>11</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Auto (gen.)</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="indent">
+                     <number>-1</number>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_frec_sdv_config">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>80</y>
+                      <width>151</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>34,300</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_duracion">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>134</y>
+                      <width>171</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>1000</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_marca_sdv">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>34</y>
+                      <width>181</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_36">
+                    <property name="geometry">
+                     <rect>
+                      <x>190</x>
+                      <y>112</y>
+                      <width>181</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Tiempo entre pulsos (ms):</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_angulo_sdv">
+                    <property name="geometry">
+                     <rect>
+                      <x>170</x>
+                      <y>80</y>
+                      <width>151</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>22</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_35">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>112</y>
+                      <width>171</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Duración del pulso (ms):</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_32">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>58</y>
+                      <width>131</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Frecuencia (GHz):</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="lbl_modelo_sdv">
+                    <property name="geometry">
+                     <rect>
+                      <x>200</x>
+                      <y>12</y>
+                      <width>71</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Modelo:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_modelo_sdv">
+                    <property name="geometry">
+                     <rect>
+                      <x>200</x>
+                      <y>34</y>
+                      <width>181</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_34">
+                    <property name="geometry">
+                     <rect>
+                      <x>330</x>
+                      <y>58</y>
+                      <width>101</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Amplitud (V):</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="lbl_sdv_man">
+                    <property name="geometry">
+                     <rect>
+                      <x>420</x>
+                      <y>122</y>
+                      <width>121</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>11</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(221, 221, 221);</string>
+                    </property>
+                    <property name="text">
+                     <string>Manual (sin gen.)</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="indent">
+                     <number>-1</number>
+                    </property>
+                   </widget>
+                   <widget class="QSlider" name="sld_sdv">
+                    <property name="geometry">
+                     <rect>
+                      <x>390</x>
+                      <y>122</y>
+                      <width>22</width>
+                      <height>31</height>
+                     </rect>
+                    </property>
+                    <property name="maximum">
+                     <number>1</number>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_amplitud">
+                    <property name="geometry">
+                     <rect>
+                      <x>330</x>
+                      <y>80</y>
+                      <width>151</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>1</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="lbl_marca_sdv">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>12</y>
+                      <width>61</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Marca:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_33">
+                    <property name="geometry">
+                     <rect>
+                      <x>170</x>
+                      <y>58</y>
+                      <width>101</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Ángulo (º):</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_tiempo_pulsos">
+                    <property name="geometry">
+                     <rect>
+                      <x>190</x>
+                      <y>134</y>
+                      <width>181</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                   </widget>
+                  </widget>
+                  <widget class="QGroupBox" name="grp_rs232">
+                   <property name="geometry">
+                    <rect>
+                     <x>190</x>
+                     <y>186</y>
+                     <width>551</width>
+                     <height>121</height>
+                    </rect>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(235, 245, 255);
+border: none;</string>
+                   </property>
+                   <property name="title">
+                    <string>Retorno RS232</string>
+                   </property>
+                   <widget class="QLabel" name="lbl_retorno_auto">
+                    <property name="geometry">
+                     <rect>
+                      <x>410</x>
+                      <y>90</y>
+                      <width>121</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>11</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Retorno auto</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="indent">
+                     <number>-1</number>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_paridad">
+                    <property name="geometry">
+                     <rect>
+                      <x>220</x>
+                      <y>34</y>
+                      <width>61</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid grey;</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_timeout">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>34</y>
+                      <width>81</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid grey;</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_flujo">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>86</y>
+                      <width>121</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid grey;</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_39">
+                    <property name="geometry">
+                     <rect>
+                      <x>220</x>
+                      <y>12</y>
+                      <width>61</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Paridad:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_40">
+                    <property name="geometry">
+                     <rect>
+                      <x>110</x>
+                      <y>12</y>
+                      <width>71</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Velocidad:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_velocidad_rs232">
+                    <property name="geometry">
+                     <rect>
+                      <x>110</x>
+                      <y>34</y>
+                      <width>91</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid grey;</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_41">
+                    <property name="geometry">
+                     <rect>
+                      <x>150</x>
+                      <y>64</y>
+                      <width>71</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Inicio vel.</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="lbl_retorno_man">
+                    <property name="geometry">
+                     <rect>
+                      <x>410</x>
+                      <y>74</y>
+                      <width>121</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>11</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(221, 221, 221);</string>
+                    </property>
+                    <property name="text">
+                     <string>Retorno manual</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="indent">
+                     <number>-1</number>
+                    </property>
+                   </widget>
+                   <widget class="QSlider" name="sld_retorno">
+                    <property name="geometry">
+                     <rect>
+                      <x>380</x>
+                      <y>74</y>
+                      <width>22</width>
+                      <height>31</height>
+                     </rect>
+                    </property>
+                    <property name="maximum">
+                     <number>1</number>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_inicio_vel">
+                    <property name="geometry">
+                     <rect>
+                      <x>150</x>
+                      <y>86</y>
+                      <width>71</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid grey;</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_42">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>12</y>
+                      <width>81</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Timeout (s):</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_43">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>64</y>
+                      <width>111</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Control de flujo:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_44">
+                    <property name="geometry">
+                     <rect>
+                      <x>300</x>
+                      <y>12</y>
+                      <width>101</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Bits de datos:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_bits_datos">
+                    <property name="geometry">
+                     <rect>
+                      <x>300</x>
+                      <y>34</y>
+                      <width>91</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid grey;</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_bits_parada">
+                    <property name="geometry">
+                     <rect>
+                      <x>410</x>
+                      <y>34</y>
+                      <width>101</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid grey;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_45">
+                    <property name="geometry">
+                     <rect>
+                      <x>410</x>
+                      <y>12</y>
+                      <width>111</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Bits de parada:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_46">
+                    <property name="geometry">
+                     <rect>
+                      <x>240</x>
+                      <y>64</y>
+                      <width>91</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Longitud vel.</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="txt_longVel">
+                    <property name="geometry">
+                     <rect>
+                      <x>240</x>
+                      <y>86</y>
+                      <width>71</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid grey;</string>
+                    </property>
+                   </widget>
+                  </widget>
+                  <widget class="QPushButton" name="btn_add_sdv">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>276</y>
+                     <width>31</width>
+                     <height>31</height>
+                    </rect>
+                   </property>
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>999</width>
+                     <height>999</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Calibri</family>
+                     <pointsize>11</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: rgb(173, 173, 173);
+	background-color: rgb(225, 225, 225);
+}
+QPushButton:hover {
+	background-color: rgb(218, 255, 215);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>+</string>
+                   </property>
+                  </widget>
+                  <widget class="QPushButton" name="btn_del_sdv">
+                   <property name="geometry">
+                    <rect>
+                     <x>50</x>
+                     <y>276</y>
+                     <width>31</width>
+                     <height>31</height>
+                    </rect>
+                   </property>
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>999</width>
+                     <height>999</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Calibri</family>
+                     <pointsize>11</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: rgb(173, 173, 173);
+	background-color: rgb(225, 225, 225);
+}
+QPushButton:hover {
+	background-color: rgb(218, 255, 215);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>-</string>
+                   </property>
+                  </widget>
+                  <widget class="QPushButton" name="btn_update_sdv">
+                   <property name="geometry">
+                    <rect>
+                     <x>90</x>
+                     <y>276</y>
+                     <width>91</width>
+                     <height>31</height>
+                    </rect>
+                   </property>
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>999</width>
+                     <height>999</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Calibri</family>
+                     <pointsize>11</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: rgb(173, 173, 173);
+	background-color: rgb(225, 225, 225);
+}
+QPushButton:hover {
+	background-color: rgb(218, 255, 215);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Update</string>
+                   </property>
+                  </widget>
+                 </widget>
+                 <widget class="QGroupBox" name="grp_equipo_4">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>440</y>
+                    <width>751</width>
+                    <height>111</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>171</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>671</width>
+                    <height>1</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>9999</width>
+                    <height>9999</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(235, 245, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                  </property>
+                  <property name="title">
+                   <string>Ensayo SdV</string>
+                  </property>
+                  <widget class="QGroupBox" name="grp_precEquipo_2">
+                   <property name="geometry">
+                    <rect>
+                     <x>20</x>
+                     <y>20</y>
+                     <width>181</width>
+                     <height>81</height>
+                    </rect>
+                   </property>
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                     <horstretch>221</horstretch>
+                     <verstretch>71</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">border: 1px solid grey;
+background-color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="title">
+                    <string>Sentido</string>
+                   </property>
+                   <property name="flat">
+                    <bool>false</bool>
+                   </property>
+                   <property name="checkable">
+                    <bool>false</bool>
+                   </property>
+                   <widget class="QListWidget" name="lst_sentido">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>17</y>
+                      <width>161</width>
+                      <height>61</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>10</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">border: none;</string>
+                    </property>
+                    <property name="selectionMode">
+                     <enum>QAbstractItemView::SingleSelection</enum>
+                    </property>
+                    <item>
+                     <property name="text">
+                      <string>Ambos</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Alejamiento</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Aproximación</string>
+                     </property>
+                    </item>
+                   </widget>
+                  </widget>
+                  <widget class="QPushButton" name="btn_inicio_sdv">
+                   <property name="geometry">
+                    <rect>
+                     <x>230</x>
+                     <y>50</y>
+                     <width>71</width>
+                     <height>31</height>
+                    </rect>
+                   </property>
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>999</width>
+                     <height>999</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Calibri</family>
+                     <pointsize>11</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: rgb(173, 173, 173);
+	background-color: rgb(225, 225, 225);
+}
+QPushButton:hover {
+	background-color: rgb(218, 255, 215);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Iniciar</string>
+                   </property>
+                  </widget>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
              </widget>
             </widget>
             <widget class="QWidget" name="p_DdR">
@@ -1818,75 +3560,66 @@ QHeaderView::section {
              </widget>
             </widget>
             <widget class="QWidget" name="p_Certif">
-             <layout class="QHBoxLayout" name="horizontalLayout_12">
-              <property name="spacing">
-               <number>0</number>
+             <widget class="QWidget" name="WidgetL" native="true">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>788</width>
+                <height>631</height>
+               </rect>
               </property>
-              <property name="leftMargin">
-               <number>0</number>
+              <property name="minimumSize">
+               <size>
+                <width>788</width>
+                <height>0</height>
+               </size>
               </property>
-              <property name="topMargin">
-               <number>0</number>
-              </property>
-              <property name="rightMargin">
-               <number>0</number>
-              </property>
-              <property name="bottomMargin">
-               <number>0</number>
-              </property>
-              <item>
-               <widget class="QWidget" name="WidgetL" native="true">
-                <property name="minimumSize">
-                 <size>
-                  <width>788</width>
-                  <height>0</height>
-                 </size>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_5">
-                 <property name="spacing">
-                  <number>0</number>
+              <layout class="QVBoxLayout" name="verticalLayout_5">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLineEdit" name="txt_objeto">
+                 <property name="font">
+                  <font>
+                   <family>Segoe UI</family>
+                   <pointsize>12</pointsize>
+                  </font>
                  </property>
-                 <property name="leftMargin">
-                  <number>0</number>
+                 <property name="styleSheet">
+                  <string notr="true"/>
                  </property>
-                 <property name="topMargin">
-                  <number>0</number>
+                 <property name="text">
+                  <string/>
                  </property>
-                 <property name="rightMargin">
-                  <number>0</number>
+                 <property name="readOnly">
+                  <bool>true</bool>
                  </property>
-                 <property name="bottomMargin">
-                  <number>0</number>
+                </widget>
+               </item>
+               <item>
+                <widget class="QTableWidget" name="tablePreview">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>481</height>
+                  </size>
                  </property>
-                 <item>
-                  <widget class="QLineEdit" name="txt_objeto">
-                   <property name="font">
-                    <font>
-                     <family>Segoe UI</family>
-                     <pointsize>12</pointsize>
-                    </font>
-                   </property>
-                   <property name="styleSheet">
-                    <string notr="true"/>
-                   </property>
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="readOnly">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QTableWidget" name="tablePreview">
-                   <property name="minimumSize">
-                    <size>
-                     <width>0</width>
-                     <height>481</height>
-                    </size>
-                   </property>
-                   <property name="styleSheet">
-                    <string notr="true">QTableView{
+                 <property name="styleSheet">
+                  <string notr="true">QTableView{
 	border: 1px solid grey;
 	border-radius: 4px;
 }
@@ -1902,437 +3635,46 @@ QHeaderView::section {
 	background-color: rgb(235, 245, 255);
 	border: 1px solid grey;
 }</string>
-                   </property>
-                   <property name="editTriggers">
-                    <set>QAbstractItemView::NoEditTriggers</set>
-                   </property>
-                   <property name="alternatingRowColors">
-                    <bool>true</bool>
-                   </property>
-                   <property name="verticalScrollMode">
-                    <enum>QAbstractItemView::ScrollPerPixel</enum>
-                   </property>
-                   <property name="horizontalScrollMode">
-                    <enum>QAbstractItemView::ScrollPerPixel</enum>
-                   </property>
-                   <property name="showGrid">
-                    <bool>true</bool>
-                   </property>
-                   <attribute name="horizontalHeaderMinimumSectionSize">
-                    <number>60</number>
-                   </attribute>
-                   <attribute name="horizontalHeaderDefaultSectionSize">
-                    <number>180</number>
-                   </attribute>
-                   <attribute name="verticalHeaderVisible">
-                    <bool>false</bool>
-                   </attribute>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="sld_repMod" native="true">
-                   <property name="minimumSize">
-                    <size>
-                     <width>0</width>
-                     <height>96</height>
-                    </size>
-                   </property>
-                   <widget class="QLabel" name="label_22">
-                    <property name="geometry">
-                     <rect>
-                      <x>240</x>
-                      <y>4</y>
-                      <width>191</width>
-                      <height>21</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <family>Segoe UI</family>
-                      <pointsize>12</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string>Características equipo:</string>
-                    </property>
-                   </widget>
-                   <widget class="QPushButton" name="btn_tablaPdf">
-                    <property name="enabled">
-                     <bool>false</bool>
-                    </property>
-                    <property name="geometry">
-                     <rect>
-                      <x>110</x>
-                      <y>50</y>
-                      <width>111</width>
-                      <height>41</height>
-                     </rect>
-                    </property>
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="minimumSize">
-                     <size>
-                      <width>0</width>
-                      <height>0</height>
-                     </size>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>999</width>
-                      <height>999</height>
-                     </size>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <family>Calibri</family>
-                      <pointsize>11</pointsize>
-                     </font>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">QPushButton {
-	border: 1px solid;
-	border-radius: 10px;
-	border-color: rgb(173, 173, 173);
-	background-color: rgb(225, 225, 225);
-}
-QPushButton:hover {
-	background-color: rgb(218, 255, 215);
-}</string>
-                    </property>
-                    <property name="text">
-                     <string>Generar PDF</string>
-                    </property>
-                   </widget>
-                   <widget class="QPushButton" name="btn_cargarPreview">
-                    <property name="geometry">
-                     <rect>
-                      <x>10</x>
-                      <y>50</y>
-                      <width>91</width>
-                      <height>41</height>
-                     </rect>
-                    </property>
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="minimumSize">
-                     <size>
-                      <width>0</width>
-                      <height>0</height>
-                     </size>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>999</width>
-                      <height>999</height>
-                     </size>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <family>Calibri</family>
-                      <pointsize>11</pointsize>
-                     </font>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">QPushButton {
-	border: 1px solid;
-	border-radius: 10px;
-	border-color: rgb(173, 173, 173);
-	background-color: rgb(225, 225, 225);
-}
-QPushButton:hover {
-	background-color: rgb(218, 255, 215);
-}</string>
-                    </property>
-                    <property name="text">
-                     <string>Cargar</string>
-                    </property>
-                   </widget>
-                   <widget class="QLineEdit" name="txt_seleccionado">
-                    <property name="geometry">
-                     <rect>
-                      <x>240</x>
-                      <y>26</y>
-                      <width>291</width>
-                      <height>20</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <family>Segoe UI</family>
-                      <pointsize>12</pointsize>
-                     </font>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true"/>
-                    </property>
-                    <property name="text">
-                     <string/>
-                    </property>
-                   </widget>
-                   <widget class="QLabel" name="label_25">
-                    <property name="geometry">
-                     <rect>
-                      <x>540</x>
-                      <y>4</y>
-                      <width>191</width>
-                      <height>21</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <family>Segoe UI</family>
-                      <pointsize>12</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string>EMP:</string>
-                    </property>
-                   </widget>
-                   <widget class="QLineEdit" name="txt_emp">
-                    <property name="geometry">
-                     <rect>
-                      <x>540</x>
-                      <y>26</y>
-                      <width>231</width>
-                      <height>20</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <family>Segoe UI</family>
-                      <pointsize>12</pointsize>
-                     </font>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true"/>
-                    </property>
-                    <property name="text">
-                     <string/>
-                    </property>
-                   </widget>
-                   <widget class="QLineEdit" name="txt_motivoMod">
-                    <property name="geometry">
-                     <rect>
-                      <x>500</x>
-                      <y>72</y>
-                      <width>271</width>
-                      <height>20</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <family>Segoe UI</family>
-                      <pointsize>12</pointsize>
-                     </font>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">background-color: rgb(255, 255, 235);</string>
-                    </property>
-                    <property name="text">
-                     <string/>
-                    </property>
-                    <property name="clearButtonEnabled">
-                     <bool>false</bool>
-                    </property>
-                   </widget>
-                   <widget class="QLabel" name="lbl_motivoMod">
-                    <property name="geometry">
-                     <rect>
-                      <x>500</x>
-                      <y>50</y>
-                      <width>191</width>
-                      <height>21</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <family>Segoe UI</family>
-                      <pointsize>12</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string>Motivo modificación:</string>
-                    </property>
-                   </widget>
-                   <widget class="QSlider" name="slider_repMod">
-                    <property name="geometry">
-                     <rect>
-                      <x>360</x>
-                      <y>54</y>
-                      <width>22</width>
-                      <height>31</height>
-                     </rect>
-                    </property>
-                    <property name="maximum">
-                     <number>1</number>
-                    </property>
-                    <property name="orientation">
-                     <enum>Qt::Vertical</enum>
-                    </property>
-                   </widget>
-                   <widget class="QLabel" name="lbl_selectMod">
-                    <property name="geometry">
-                     <rect>
-                      <x>390</x>
-                      <y>54</y>
-                      <width>101</width>
-                      <height>16</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <family>Segoe UI</family>
-                      <pointsize>11</pointsize>
-                     </font>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">color: rgb(221, 221, 221);</string>
-                    </property>
-                    <property name="text">
-                     <string>Modificación</string>
-                    </property>
-                    <property name="wordWrap">
-                     <bool>true</bool>
-                    </property>
-                    <property name="indent">
-                     <number>-1</number>
-                    </property>
-                   </widget>
-                   <widget class="QLabel" name="lbl_selectRep">
-                    <property name="geometry">
-                     <rect>
-                      <x>390</x>
-                      <y>70</y>
-                      <width>91</width>
-                      <height>16</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <family>Segoe UI</family>
-                      <pointsize>11</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string>Reparación</string>
-                    </property>
-                    <property name="wordWrap">
-                     <bool>true</bool>
-                    </property>
-                    <property name="indent">
-                     <number>-1</number>
-                    </property>
-                   </widget>
-                   <widget class="QLabel" name="lbl_selectInstPortico">
-                    <property name="geometry">
-                     <rect>
-                      <x>280</x>
-                      <y>54</y>
-                      <width>61</width>
-                      <height>16</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <family>Segoe UI</family>
-                      <pointsize>11</pointsize>
-                     </font>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">color: rgb(221, 221, 221);</string>
-                    </property>
-                    <property name="text">
-                     <string>Pórtico</string>
-                    </property>
-                    <property name="wordWrap">
-                     <bool>true</bool>
-                    </property>
-                    <property name="indent">
-                     <number>-1</number>
-                    </property>
-                   </widget>
-                   <widget class="QLabel" name="lbl_selectInstOtros">
-                    <property name="geometry">
-                     <rect>
-                      <x>280</x>
-                      <y>70</y>
-                      <width>51</width>
-                      <height>16</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <family>Segoe UI</family>
-                      <pointsize>11</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string>Otros</string>
-                    </property>
-                    <property name="wordWrap">
-                     <bool>true</bool>
-                    </property>
-                    <property name="indent">
-                     <number>-1</number>
-                    </property>
-                   </widget>
-                   <widget class="QSlider" name="sld_instalacion">
-                    <property name="geometry">
-                     <rect>
-                      <x>250</x>
-                      <y>54</y>
-                      <width>22</width>
-                      <height>31</height>
-                     </rect>
-                    </property>
-                    <property name="maximum">
-                     <number>1</number>
-                    </property>
-                    <property name="orientation">
-                     <enum>Qt::Vertical</enum>
-                    </property>
-                   </widget>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <widget class="QWidget" name="widgetConfig_2" native="true">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <widget class="QWidget" name="configCertifContainer" native="true">
-                 <property name="geometry">
-                  <rect>
-                   <x>10</x>
-                   <y>9</y>
-                   <width>271</width>
-                   <height>611</height>
-                  </rect>
                  </property>
-                 <property name="styleSheet">
-                  <string notr="true">#configCertifContainer{
-	border: 1px solid grey;
-	border-radius: 4px;
-}</string>
+                 <property name="editTriggers">
+                  <set>QAbstractItemView::DoubleClicked</set>
                  </property>
-                 <widget class="QLabel" name="label_24">
+                 <property name="alternatingRowColors">
+                  <bool>true</bool>
+                 </property>
+                 <property name="verticalScrollMode">
+                  <enum>QAbstractItemView::ScrollPerPixel</enum>
+                 </property>
+                 <property name="horizontalScrollMode">
+                  <enum>QAbstractItemView::ScrollPerPixel</enum>
+                 </property>
+                 <property name="showGrid">
+                  <bool>true</bool>
+                 </property>
+                 <attribute name="horizontalHeaderMinimumSectionSize">
+                  <number>60</number>
+                 </attribute>
+                 <attribute name="horizontalHeaderDefaultSectionSize">
+                  <number>180</number>
+                 </attribute>
+                 <attribute name="verticalHeaderVisible">
+                  <bool>false</bool>
+                 </attribute>
+                </widget>
+               </item>
+               <item>
+                <widget class="QWidget" name="sld_repMod" native="true">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>96</height>
+                  </size>
+                 </property>
+                 <widget class="QLabel" name="label_22">
                   <property name="geometry">
                    <rect>
                     <x>10</x>
-                    <y>10</y>
+                    <y>4</y>
                     <width>191</width>
                     <height>21</height>
                    </rect>
@@ -2344,15 +3686,18 @@ QPushButton:hover {
                    </font>
                   </property>
                   <property name="text">
-                   <string>Configuración</string>
+                   <string>Características equipo:</string>
                   </property>
                  </widget>
-                 <widget class="QPushButton" name="btn_tablaResultados">
+                 <widget class="QPushButton" name="btn_tablaPdf">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
                   <property name="geometry">
                    <rect>
-                    <x>70</x>
+                    <x>110</x>
                     <y>50</y>
-                    <width>141</width>
+                    <width>111</width>
                     <height>41</height>
                    </rect>
                   </property>
@@ -2392,15 +3737,15 @@ QPushButton:hover {
 }</string>
                   </property>
                   <property name="text">
-                   <string>Tabla Resultados</string>
+                   <string>Generar PDF</string>
                   </property>
                  </widget>
-                 <widget class="QPushButton" name="btn_tablaEMP">
+                 <widget class="QPushButton" name="btn_cargarPreview">
                   <property name="geometry">
                    <rect>
-                    <x>70</x>
-                    <y>110</y>
-                    <width>141</width>
+                    <x>10</x>
+                    <y>50</y>
+                    <width>91</width>
                     <height>41</height>
                    </rect>
                   </property>
@@ -2440,13 +3785,491 @@ QPushButton:hover {
 }</string>
                   </property>
                   <property name="text">
-                   <string>Tabla EMP</string>
+                   <string>Cargar</string>
                   </property>
+                 </widget>
+                 <widget class="QLineEdit" name="txt_seleccionado">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>26</y>
+                    <width>291</width>
+                    <height>20</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI</family>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_25">
+                  <property name="geometry">
+                   <rect>
+                    <x>310</x>
+                    <y>4</y>
+                    <width>191</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI</family>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>EMP:</string>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="txt_emp">
+                  <property name="geometry">
+                   <rect>
+                    <x>310</x>
+                    <y>26</y>
+                    <width>231</width>
+                    <height>20</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI</family>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="txt_motivoMod">
+                  <property name="geometry">
+                   <rect>
+                    <x>500</x>
+                    <y>72</y>
+                    <width>271</width>
+                    <height>20</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI</family>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 235);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="clearButtonEnabled">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="lbl_motivoMod">
+                  <property name="geometry">
+                   <rect>
+                    <x>500</x>
+                    <y>50</y>
+                    <width>191</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI</family>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Motivo modificación:</string>
+                  </property>
+                 </widget>
+                 <widget class="QSlider" name="slider_repMod">
+                  <property name="geometry">
+                   <rect>
+                    <x>360</x>
+                    <y>54</y>
+                    <width>22</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                  <property name="maximum">
+                   <number>1</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="lbl_selectMod">
+                  <property name="geometry">
+                   <rect>
+                    <x>390</x>
+                    <y>54</y>
+                    <width>101</width>
+                    <height>16</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI</family>
+                    <pointsize>11</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(221, 221, 221);</string>
+                  </property>
+                  <property name="text">
+                   <string>Modificación</string>
+                  </property>
+                  <property name="wordWrap">
+                   <bool>true</bool>
+                  </property>
+                  <property name="indent">
+                   <number>-1</number>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="lbl_selectRep">
+                  <property name="geometry">
+                   <rect>
+                    <x>390</x>
+                    <y>70</y>
+                    <width>91</width>
+                    <height>16</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI</family>
+                    <pointsize>11</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Reparación</string>
+                  </property>
+                  <property name="wordWrap">
+                   <bool>true</bool>
+                  </property>
+                  <property name="indent">
+                   <number>-1</number>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="lbl_selectInstPortico">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>54</y>
+                    <width>61</width>
+                    <height>16</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI</family>
+                    <pointsize>11</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(221, 221, 221);</string>
+                  </property>
+                  <property name="text">
+                   <string>Pórtico</string>
+                  </property>
+                  <property name="wordWrap">
+                   <bool>true</bool>
+                  </property>
+                  <property name="indent">
+                   <number>-1</number>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="lbl_selectInstOtros">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>70</y>
+                    <width>51</width>
+                    <height>16</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI</family>
+                    <pointsize>11</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Otros</string>
+                  </property>
+                  <property name="wordWrap">
+                   <bool>true</bool>
+                  </property>
+                  <property name="indent">
+                   <number>-1</number>
+                  </property>
+                 </widget>
+                 <widget class="QSlider" name="sld_instalacion">
+                  <property name="geometry">
+                   <rect>
+                    <x>250</x>
+                    <y>54</y>
+                    <width>22</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                  <property name="maximum">
+                   <number>1</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                 <widget class="QFrame" name="frame">
+                  <property name="geometry">
+                   <rect>
+                    <x>610</x>
+                    <y>0</y>
+                    <width>181</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <widget class="QLabel" name="label">
+                   <property name="geometry">
+                    <rect>
+                     <x>4</x>
+                     <y>10</y>
+                     <width>41</width>
+                     <height>16</height>
+                    </rect>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(235, 245, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_4">
+                   <property name="geometry">
+                    <rect>
+                     <x>4</x>
+                     <y>30</y>
+                     <width>41</width>
+                     <height>16</height>
+                    </rect>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 230, 172);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="lbl_motivoMod_2">
+                   <property name="geometry">
+                    <rect>
+                     <x>50</x>
+                     <y>10</y>
+                     <width>41</width>
+                     <height>16</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>EMP</string>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="lbl_motivoMod_3">
+                   <property name="geometry">
+                    <rect>
+                     <x>50</x>
+                     <y>30</y>
+                     <width>121</width>
+                     <height>16</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Errores máx. inst.</string>
+                   </property>
+                  </widget>
                  </widget>
                 </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="widgetConfig_2" native="true">
+              <property name="geometry">
+               <rect>
+                <x>788</x>
+                <y>0</y>
+                <width>293</width>
+                <height>631</height>
+               </rect>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <widget class="QWidget" name="configCertifContainer" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>9</y>
+                 <width>271</width>
+                 <height>611</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#configCertifContainer{
+	border: 1px solid grey;
+	border-radius: 4px;
+}</string>
+               </property>
+               <widget class="QLabel" name="label_24">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>191</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Segoe UI</family>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Configuración</string>
+                </property>
                </widget>
-              </item>
-             </layout>
+               <widget class="QPushButton" name="btn_tablaResultados">
+                <property name="geometry">
+                 <rect>
+                  <x>70</x>
+                  <y>50</y>
+                  <width>141</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>999</width>
+                  <height>999</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Calibri</family>
+                  <pointsize>11</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton {
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: rgb(173, 173, 173);
+	background-color: rgb(225, 225, 225);
+}
+QPushButton:hover {
+	background-color: rgb(218, 255, 215);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Tabla Resultados</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="btn_tablaEMP">
+                <property name="geometry">
+                 <rect>
+                  <x>70</x>
+                  <y>110</y>
+                  <width>141</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>999</width>
+                  <height>999</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Calibri</family>
+                  <pointsize>11</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton {
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: rgb(173, 173, 173);
+	background-color: rgb(225, 225, 225);
+}
+QPushButton:hover {
+	background-color: rgb(218, 255, 215);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Tabla EMP</string>
+                </property>
+               </widget>
+              </widget>
+             </widget>
             </widget>
            </widget>
           </item>
@@ -2519,12 +4342,12 @@ QPushButton:hover {
    <slot>click()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>353</x>
-     <y>135</y>
+     <x>483</x>
+     <y>131</y>
     </hint>
     <hint type="destinationlabel">
-     <x>248</x>
-     <y>681</y>
+     <x>239</x>
+     <y>672</y>
     </hint>
    </hints>
   </connection>
@@ -2541,6 +4364,38 @@ QPushButton:hover {
     <hint type="destinationlabel">
      <x>745</x>
      <y>554</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>txt_velocidad_sdv</sender>
+   <signal>returnPressed()</signal>
+   <receiver>btn_enviar_velocidad</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>251</x>
+     <y>520</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>745</x>
+     <y>527</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>txt_frec_sdv</sender>
+   <signal>returnPressed()</signal>
+   <receiver>btn_enviar_velocidad</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>470</x>
+     <y>517</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>730</x>
+     <y>518</y>
     </hint>
    </hints>
   </connection>

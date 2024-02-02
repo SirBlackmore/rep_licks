@@ -12,7 +12,6 @@ def buscarConfig(categoria, nombre):
     except:
         return "error"
 
-
 def mostrarConfigCategoria(categorias):
     try:
         config = ConfigParser()
@@ -39,3 +38,12 @@ def abrirCarpeta(expediente):
         return "nodisp"
     else:
         subprocess.Popen('explorer "' + os.path.abspath(ruta) + '"')
+
+def modificarConfig(categoria, nombre, valor):
+
+    config = ConfigParser()
+    config.read("config.ini", encoding='utf-8')
+    config[categoria][nombre] = valor
+
+    with open("config.ini", 'w') as configfile:
+        config.write(configfile)

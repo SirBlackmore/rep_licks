@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
-import json
 # response = requests.get('https://website.example/id', headers={'Authorization': 'access_token myToken'})
+import json
 
 urlExp = "https://wswecogeslab.cem.es/api/Expedientes/GetExpedientesByLaboratorio?nombre=Cinem%C3%B3metros"
 urlEquipos = "https://wswecogeslab.cem.es/api/Instrumentos/GetIdLabInstrumento?idLab=7"
@@ -56,7 +56,7 @@ def conectarGESLAB(objExpediente):
                     objExpediente.numSerie = registro["nroSerie"]
                     objExpediente.modalidad = registro["lstTiposInstrumento"][0]["nombreTipoInstrumento"]
                     objExpediente.descripcion = registro["especificaciones"]
-                    objExpediente.norma = registro["lstNorma"][0]["nombreNorma"]
+                    objExpediente.norma = str(registro["lstNorma"][0]["nombreNorma"]).replace('\n', '').replace('\r', '')
 
             if eqEncontrado == False:
                 conexion = "eqFalse"
@@ -73,19 +73,17 @@ def conectarGESLAB(objExpediente):
         if respuestaEquipos.status_code != 200:
             conexion = "error"
         else:
+            data = respuestaEquipos.json()
+            with open('data.json', 'w') as f:
+                json.dump(data, f)
+
             for registro in respuestaEquipos.json():
                 if registro["expediente"] == objExpediente.numExp:
-                    # print(registro)
                     eqEncontrado = True
-                    print("Equipo!: ")
-                    print(registro)
-                    # objExpediente.tipo = registro["nombre"]
-                    # objExpediente.marca = registro["lstMarca"][0]["nombreMarca"]
-                    # objExpediente.modelo = registro["lstModelo"][0]["nombreModelo"]
-                    # objExpediente.numSerie = registro["nroSerie"]
-                    # objExpediente.modalidad = registro["lstTiposInstrumento"][0]["nombreTipoInstrumento"]
-                    # objExpediente.descripcion = registro["especificaciones"]
-                    # objExpediente.norma = registro["lstNorma"][0]["nombreNorma"]
+                    for precinto in registro["precintos"]:
+                        if precinto["esEntrada"] == False:
+                            objExpediente.precintos.append(precinto["datoPrecinto"])
+                    break
 
             if eqEncontrado == False:
                 conexion = "esFalse"

@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="images">
+    <file>arrow.png</file>
+    <file>double_arrow.png</file>
     <file>iconos/search.svg</file>
     <file>iconos/upload.svg</file>
     <file>iconos/save.svg</file>
